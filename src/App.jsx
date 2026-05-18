@@ -688,28 +688,44 @@ export default function GlowDentalClinic() {
         </div>
       </section>
 
-      {/* Map */}
       <div className="map-section">
-        <div className="map-header">
-          <div className="section-tag" style={{ margin: "0 auto 0.75rem" }}>📍 Find Us</div>
-          <h2 className="section-title" style={{ textAlign: "center" }}>Visit Our Clinic</h2>
-          <p style={{ textAlign: "center", color: "var(--muted)", fontSize: "0.95rem" }}>
-            Glow Dental Clinic, Bhubaneswar, Odisha, India
-          </p>
-        </div>
-        <div className="map-wrap">
-          <iframe
-            src={MAPS_EMBED}
-            width="100%"
-            height="400"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Glow Dental Clinic Location"
-          />
-        </div>
-      </div>
+  <div className="map-header">
+    <div className="section-tag" style={{ margin: "0 auto 0.75rem" }}>
+      📍 Find Us
+    </div>
+
+    <h2
+      className="section-title"
+      style={{ textAlign: "center" }}
+    >
+      Visit Our Clinic
+    </h2>
+
+    <p
+      style={{
+        textAlign: "center",
+        color: "var(--muted)",
+        fontSize: "0.95rem",
+      }}
+    >
+      Glow Dental Clinic, Back side of Alok Bharati Complex,
+      183, Saheed Nagar, Bhubaneswar, Odisha 751007
+    </p>
+  </div>
+
+  <div className="map-wrap">
+    <iframe
+      src="https://www.google.com/maps?q=Glow%20Dental%20Clinic,%20Back%20side%20of%20Alok%20Bharati%20Complex,%20183,%20Saheed%20Nagar,%20Bhubaneswar,%20Odisha%20751007&output=embed"
+      width="100%"
+      height="400"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Glow Dental Clinic Location"
+    />
+  </div>
+</div>
 
       {/* Footer */}
       <footer>
